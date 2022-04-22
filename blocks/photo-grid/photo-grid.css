@@ -1,0 +1,15 @@
+.photo-grid__items {
+    margin-top: 12%;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 284px));
+    gap: 1em;
+    justify-content: center;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .photo-grid__items {
+        align-self: center;
+    }
+} 
