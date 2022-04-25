@@ -3,9 +3,9 @@
     font-size: 18px;
     line-height: 163%;
     margin-bottom: 0;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     padding: 0;
-    width: 90%;
+    /* width: 90%; */
     grid-area: paragraph;
     justify-items: start;
 }
@@ -15,9 +15,29 @@
 .place__paragraph:nth-child(odd) {
     margin-top: 48px;
 }
+@media screen and (min-width: 1280px) {
+    .place__paragraph {
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .place__paragraph {
+        margin-left: 32px;
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__paragraph {
-        line-height: 26px;
+        font-weight: 400;
         font-size: 16px;
+        line-height: 163%;
+        margin-left: 28px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        margin: 0 16px;
     }
 }
