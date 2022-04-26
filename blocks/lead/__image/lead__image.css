@@ -8,3 +8,8 @@
     display: flex;
     flex-direction: column;
 }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .lead__image {
+        margin: 0 48px;
+    }
+}
