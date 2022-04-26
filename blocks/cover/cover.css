@@ -1,5 +1,4 @@
 .cover {
-    width: 100%;
     background-image: url(../../images/__background.png);
     background-position: center;
     background-size: cover;
@@ -8,13 +7,15 @@
     z-index: 1;
     position: relative;
     box-sizing: content-box;
+    align-items: center;
+    justify-content: center;
+    max-width: 1184px;
 }
-.cover:hover {
-    opacity: 0.5;
-}
+
 @media screen and (min-width: 1280px) {
     .cover {
         min-height: 740px;
+        margin: 0 48px;
     }
 }
 @media all and (min-width: 1024px) and (max-width: 1279px) {
@@ -29,6 +30,6 @@
 }
 @media all and (min-width: 320px) and (max-width: 767px) {
     .cover {
-        height: 200px;
+        min-height: 200px;
     }
 }
