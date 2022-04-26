@@ -1,0 +1,28 @@
+.header__lang-link {
+    margin-left: 18px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+.header__lang-link:first-child {
+    text-decoration: underline;
+}
+@media screen and (min-width: 1280px) {
+    .header__lang-link:last-child {
+        text-decoration: none;
+        margin-left: 0;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+        margin-right: 0;
+    }
+}
