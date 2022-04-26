@@ -1,0 +1,6 @@
+.header__choice {
+    color: #fff;
+}
+.header__choice:last-child {
+    text-decoration: none;
+}
