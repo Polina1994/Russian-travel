@@ -5,7 +5,7 @@
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
 **GitHub**
-* [Ссылка на проект] (https://github.com/Polina1994/russian-travel)
+* [Ссылка на проект]  https://polina1994.github.io/russian-travel/
 **Intro**
 
 Проект о путешествии по России. В проекте представлены основные туристические места с описанием и ссылками на сайт этого места.
