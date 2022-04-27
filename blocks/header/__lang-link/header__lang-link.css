@@ -10,9 +10,7 @@
 .header__lang-link:hover {
     opacity: 0.8;
 }
-.header__lang-link:first-child {
-    text-decoration: underline;
-}
+
 @media screen and (min-width: 1280px) {
     .header__lang-link:last-child {
         text-decoration: none;
