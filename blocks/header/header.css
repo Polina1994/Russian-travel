@@ -5,3 +5,8 @@
     flex-direction: row;
     justify-content: space-between;
 }
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        height: 80px;
+    }
+}
