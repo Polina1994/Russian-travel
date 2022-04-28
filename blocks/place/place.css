@@ -37,8 +37,12 @@
 }
 @media all and (min-width: 320px) and (max-width: 767px) {
     .place {
-        display: block;
-        row-gap: 0;
+        grid-template-areas: 
+        "title"
+        "image"
+        "website"
+        "paragraph";
+        gap: 0;
     }
     .place:first-child {
        margin-top: 64px;
