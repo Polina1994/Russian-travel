@@ -39,8 +39,8 @@
     .place {
         grid-template-areas: 
         "title"
-        "image"
         "website"
+        "image"
         "paragraph";
         gap: 0;
     }
