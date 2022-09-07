@@ -1,19 +1,19 @@
-# Проект: Путешествие по России
+# Project: Traveling in Russia
 
-Проект о путешествии по России. В проекте представлены основные туристические места с описанием и ссылками на сайт этого места.
-Все ссылки активны, также блок COVER является ссылкой. Реализовано затемнение ссылок при наведении.
+Travel project in Russia. The project presents the main tourist places with descriptions and links to the website of this place.
+All links are active, also the COVER block is a link. Implemented dimming links on hover.
 
-## Технологический стек
+## Technology stack
 
-*  При создании проекта использовался следующий стек технологий: HTML, CSS, адаптивная верстка(flex, grid).
+*  When creating the project, the following technology stack was used: HTML, CSS, adaptive layout (flex, grid).
   
-При стилизации использовалась БЭМ-методология.
+BEM methodology was used for styling.
 
 
-**Ссылка на макет в Figma**
+**Link to layout in Figma**
 
-* Ознакомиться с макетом можно по [ссылке](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* You can see the layout at [link](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-**Ссылка на проект**
-* Познакомиться с проектом можно по [ссылке](https://polina1994.github.io/russian-travel/)
+**Project link**
+* The project can be viewed at [link](https://polina1994.github.io/russian-travel/)
 
